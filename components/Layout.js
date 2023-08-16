@@ -3,7 +3,9 @@ import NavBar from "./NavBar";
 const Layout = ({ children }) => (
     <>
         <NavBar/>
-        {children}
+        <main className="container py-4">
+            {children}
+        </main>
     </>
 )
 
