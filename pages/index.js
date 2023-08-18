@@ -1,19 +1,20 @@
 import Layout from "../components/Layout";
+import CV from "../components/CV";
 
 const Index = () => (
     <Layout>
         {/* header intro */}
         <header>
-            <div className="row">
+            <div className="row bg-dark wg-50">
                 <div className="col-md-12">
-                    <div className="row">
+                    <div className="row text-light">
                         <div className="col-md-4">
                             <img src="Photo-Perfil.jpg" alt="image"/>
                         </div>
                         <div className="col-md-8">
                             <h6>Licenciado en Administración</h6>
                             <h1>
-                                I'm a Web
+                                Hello, I'm a Web
                                 <br/>
                                 <span>Developer</span>
                             </h1>
@@ -26,6 +27,8 @@ const Index = () => (
                 </div>
             </div>
         </header>
+        {/* second section */}
+        <CV/>
     </Layout>
 )
 
