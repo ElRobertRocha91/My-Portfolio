@@ -3,3 +3,67 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --dbDark: black;
+    --dbGreen: #00ff00;
+    --dbWhite: #fff;
+}
+
+/* components navbar */
+
+.custom-b-color{
+    background-color: var(--dbGreen);
+}
+
+.custom-img{
+    border-radius: 10px;
+}
+
+.custom-text{
+    color: var(--dbGreen);
+}
+
+.custom-btn{
+    color: var(--dbDark);
+    border-radius: 10px;
+    background-color: var(--dbGreen);
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover{
+    color: var(--dbWhite);
+    background-color: var(--dbDark);
+}
+
+/* pages index */
+
+.btn-cv{
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-cv:hover{
+    background-color: var(--dbGreen);
+}
+
+/* component portfolio */
+
+.overflow{
+    overflow: hidden;
+}
+
+.overflow .card-img-top{
+    transform: scale();
+    transition: all 0.5s ease-in-out;
+}
+
+.overflow .card-img-top:hover{
+    transform: scale(1.1);
+}
+
+.card-img-top{
+    width: 100%;
+    height: 280%;
+    object-fit: cover;
+}
