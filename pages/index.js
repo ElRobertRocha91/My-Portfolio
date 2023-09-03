@@ -22,15 +22,15 @@ const Index = () => {
                         </div>
                         <div className="col-md-8">
                             <h6 className={`custom-text ${imageLoanded ? "show" : ""}`}>Licenciado en Administración</h6>
-                            <h1>
+                            <h1 className={`custom-heading ${imageLoanded ? "show" : ""}`}>
                                 <span>Hello, I'm a Web</span>
                                 <br />
-                                <span className="custom-text">Developer</span>
+                                <span className={`custom-span ${imageLoanded ? "show": ""}`}>Developer</span>
                             </h1>
                             <p className={`custom-p ${imageLoanded ? "show" : ""}`}>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
                         </div>
                         <div>
-                            <button type="button" className={`btn btn-outline-success btn-cv ${imageLoanded ? "show" : ""}`}>DOWNLOAD CV</button>
+                            <button type="button" className={`btn-outline-success custom-btn-cv ${imageLoanded ? "show" : ""}`}>DOWNLOAD CV</button>
                         </div>
                     </div>
                 </div>

@@ -12,16 +12,41 @@
 
 /* components navbar */
 
-.custom-b-color{
-    background-color: var(--dbGreen);
+/* Efecto neon en navbar */
+
+.neon-effect{
+    position: relative;
 }
 
-.custom-img{
-    border-radius: 10px;
+.neon-effect::after{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 4px; /* Grosor del efecto neón */
+    background: linear-gradient(135deg, #00ff00, #00ffff, #0000ff); /* Colores del Neón */
+    opacity: 0.8; /* Revisar se puede ajustar la opacidad */
+    animation: neon-glow 1.5s ease-in-out infinite;
 }
 
-.custom-text{
-    color: var(--dbGreen);
+@keyframes neon-glow{
+    0%, 100% {
+        transition: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* --------------------- */
+
+.link{
+    text-decoration: none;
+}
+
+.custom-bg-color{
+    background-color: var(--dbDark);
 }
 
 .custom-btn{
@@ -38,13 +63,88 @@
 
 /* pages index */
 
-.btn-cv{
+.custom-img{
+    border-radius: 365px;
+    opacity: 0;
+    transition: opacyty 3s ease;
+}
+
+.custom-img.show{
+    opacity: 1;
+}
+
+/*  animación de Developer Web */
+
+.custom-heading{
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(40, and), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing{
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret{
+    from, to{
+        border-color: transparent;
+    }
+    50% {
+        border-color: var(--dbGreen);
+    }
+}
+
+/* --------------------------- */
+
+.custom-text{
+    color: var(--dbGreen);
+    opacity: 0;
+    transition: opacity 6s ease;
+}
+
+.custom-text.show{
+    opacity: 1;
+}
+
+.custon-span{
+    color: var(--dbGreen);
+}
+
+.custom-p{
+    opacity: 0;
+    transition: opacity 12s ease;
+}
+
+.custom-p.show{
+    opacity: 1;
+}
+
+.custom-btn-cv{
+    padding: 10px;
+    color: var(--dbWhite);
     border-radius: 10px;
+    border: solid 1px var(--dbGreen);
+    background-color: var(--dbDark);
+    opacity: 0;
     transition: background-color 0.3s ease;
 }
 
-.custom-cv:hover{
+.custom-btn-cv.show{
+    opacity: 1;
+}
+
+.custom-btn-cv:hover{
+    color: var(--dbDark);
     background-color: var(--dbGreen);
+}
+
+.custom-bg-dark{
+    background-color: var(--dbDark);
 }
 
 /* component portfolio */
