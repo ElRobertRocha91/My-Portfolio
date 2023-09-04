@@ -12,6 +12,24 @@
 
 /* components navbar */
 
+/* scroll */
+
+.fixed-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 1000;
+    transition: backgraund-color 0.3s ease;
+}
+
+.fixed-navbar:hover{
+    background-color: var(--dbDark);
+}
+
+/* ------ */
+
 /* Efecto neon en navbar */
 
 .neon-effect{
