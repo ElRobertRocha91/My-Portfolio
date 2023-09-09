@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 
 const NavBar = () => {
@@ -22,6 +23,9 @@ const NavBar = () => {
     }, []);
     //Manejamos la lógica de implementación del scroll con un ternario en una variable
     const navbarClasses = `navbar navbar-expand-lg navbar-dark custom-bg-color ${isScrolled ? "fixed-navbar" : ""}`;
+
+    //Funcionalidad al button Contact
+    const router = useRouter();
 
     return (
         <nav className={navbarClasses}>
@@ -56,7 +60,9 @@ const NavBar = () => {
                             </Link>
                         </li>
                     </ul>
-                    <button type="button" className="navbar-text btn btn-outline-success custom-btn">
+                    <button type="button" 
+                    onClick={() => router.push('/more')}
+                    className="navbar-text btn btn-outline-success custom-btn">
                         Contact
                     </button>
                 </div>
