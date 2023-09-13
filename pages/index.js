@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import CV from "../components/CV";
 import Portfolio from "../components/Portfolio";
@@ -13,11 +12,9 @@ const Index = () => {
     }, [])
 
     //DOWNLOAD
-    const router = useRouter();
-
     const handleDownloadClick = () => {
-        //Lo redirijo a mi PDF y descargo
-        router.push('RobertoRochaCV.pdf');
+        //Uso el objeto global para la descarga, evitando usar router.push() que me provocaba un error
+        window.open('/RobertoRochaCV.pdf');
     }
 
     return (
