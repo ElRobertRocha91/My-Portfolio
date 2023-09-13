@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Layout from "../components/Layout";
 import CV from "../components/CV";
 import Portfolio from "../components/Portfolio";
@@ -9,8 +10,16 @@ const Index = () => {
     //Cuando Index se monte, marcamos la image como cargada:
     useEffect(() => {
         setImageLoaded(true);
-    },[])
-    
+    }, [])
+
+    //DOWNLOAD
+    const router = useRouter();
+
+    const handleDownloadClick = () => {
+        //Lo redirijo a mi PDF y descargo
+        router.push('RobertoRochaCV.pdf');
+    }
+
     return (
         <Layout>
             {/* header intro */}
@@ -25,12 +34,16 @@ const Index = () => {
                             <h1 className={`custom-heading ${imageLoanded ? "show" : ""}`}>
                                 <span>Hello, I'm a Web</span>
                                 <br />
-                                <span className={`custom-span ${imageLoanded ? "show": ""}`}>Developer</span>
+                                <span className={`custom-span ${imageLoanded ? "show" : ""}`}>Developer</span>
                             </h1>
                             <p className={`custom-p ${imageLoanded ? "show" : ""}`}>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
                         </div>
                         <div>
-                            <button type="button" className={`btn-outline-success custom-btn-cv ${imageLoanded ? "show" : ""}`}>DOWNLOAD CV</button>
+                            <button type="button"
+                                onClick={handleDownloadClick}
+                                className={`btn-outline-success custom-btn-cv ${imageLoanded ? "show" : ""}`}>
+                                DOWNLOAD CV
+                            </button>
                         </div>
                     </div>
                 </div>
