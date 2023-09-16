@@ -245,3 +245,12 @@
 .custom-bg-black{
     background-color: var(--dbDark);
 }
+
+.custom-footer-links .list-inline-item{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.custom-footer-links .list-inline-item:hover{
+    text-decoration: underline;
+}
