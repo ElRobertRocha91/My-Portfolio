@@ -2,6 +2,8 @@ import { useState, useEffect } from "react";
 import Layout from "../components/Layout";
 import CV from "../components/CV";
 import Portfolio from "../components/Portfolio";
+import Contact from "../components/Contact";
+import AboutMe from "../components/AboutMe";
 
 const Index = () => {
     const [imageLoanded, setImageLoaded] = useState(false);
@@ -46,9 +48,11 @@ const Index = () => {
                 </div>
             </header>
             {/* second section */}
-            <CV />
+            <AboutMe/>
             {/* third section */}
             <Portfolio />
+            {/* fourth section */}
+            <Contact/>
         </Layout>)
 }
 
