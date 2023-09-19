@@ -240,6 +240,21 @@
     object-fit: cover;
 }
 
+/* component contact */
+
+.custom-tiltle{
+    color: var(--dbGreen);
+}
+
+.custom-input{
+    background-color: #333 !important;
+    color: var(--dbWhite) !important;
+}
+
+.custom-input::placeholder{
+    color: var(--dbWhite);
+}
+
 /* component footer */
 
 .custom-bg-black{
