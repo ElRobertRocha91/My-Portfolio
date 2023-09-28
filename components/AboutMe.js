@@ -1,8 +1,8 @@
 const AboutMe = () => (
-    <div>
-        <div>
-            <h4>About Me</h4>
-            <div>
+    <div className="row custom-bg-black">
+        <div className="text-light">
+            <h2 className="custom-title text-center">About Me</h2>
+            <div className="container-md text-start fs-4 p-5 px-10">
                 <p>
                     Hello! my name is Roberto Rocha, I am a Full Stack Web Developer Jr.
                     interested and passionate about technology, I starded my training ot the 
@@ -12,8 +12,8 @@ const AboutMe = () => (
                     your interest, I invite you to kmoew them in the following section.
                 </p>
             </div>
-            <div>
-                <h4>Hard Skills</h4>
+            <div className="container">
+                <h4 className="custom.title">Hard Skills</h4>
                 <div>Array of object</div>
             </div>
         </div>
