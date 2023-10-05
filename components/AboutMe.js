@@ -1,3 +1,5 @@
+import { skills } from "../data/skills";
+
 const AboutMe = () => (
     <div className="row custom-bg-black">
         <div className="text-light">
@@ -13,8 +15,24 @@ const AboutMe = () => (
                 </p>
             </div>
             <div className="container">
-                <h4 className="custom.title">Hard Skills</h4>
-                <div>Array of object</div>
+                <h4 className="custom-title">Hard Skills</h4>
+                <div className="d-flex flex-wrap justify-content-between">
+                    <ul className="list-unstyled row">
+                        {
+                            skills.map(({skill, image}, index) => (
+                                <li key={index} className="col-md-4 mb-3 text-center">
+                                    <div>
+                                        <img src={`/${image}`} alt="image" 
+                                        className="img-fluid" 
+                                        style={{maxWidth: "100px", maxHeight: "100px"}}
+                                        />
+                                    </div>
+                                    <h4>{skill}</h4>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
