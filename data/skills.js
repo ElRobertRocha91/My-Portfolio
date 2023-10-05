@@ -1,30 +1,45 @@
 export const skills = [
     {
-        skill: "JavaScript",
-        porcentage: 100
+        skill: "HTML",
+        image: "html.png"
     },{
-        skill: "Node.js",
-        porcentage: 90
+        skill: "CSS",
+        image: "css.png"
+    },{
+        skill: "JavaScript",
+        image: "javascript.png"
     },{
         skill: "React",
-        porcentage: 100
+        image: "react.png"
     },{
         skill: "Redux",
-        porcentage: 100
-    },{
-        skill: "PostgreSQL",
-        porcentage: 70
-    },{
-        skill: "Sequelize",
-        porcentage: 80
-    },{
-        skill: "Express",
-        porcentage: 90
-    },{
-        skill: "MongoDB",
-        porcentage: 70
+        image: "redux.png"
     },{
         skill: "Bootstrap",
-        porcentage: 70
+        image: "bootstrap.png"
+    },{
+        skill: "Next.js",
+        image: "nextjs.png"
+    },{
+        skill: "Node.js",
+        image: "nodejs.png"
+    },{
+        skill: "Express",
+        image: "express.png"
+    },{
+        skill: "Sequelize",
+        image: "sequelize.png"
+    },{
+        skill: "PostgreSQL",
+        image: "postgresql.png"
+    },{
+        skill: "MySQL",
+        image: "mysql.png"
+    },{
+        skill: "MongoDB",
+        image: "mongodb.png"
+    },{
+        skill: "Java",
+        image: "java.png"
     }
 ]
