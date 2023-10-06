@@ -41,5 +41,8 @@ export const skills = [
     },{
         skill: "Java",
         image: "java.png"
+    },{
+        skill: "Git",
+        image: "git.png"
     }
 ]
