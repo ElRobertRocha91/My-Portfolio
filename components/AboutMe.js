@@ -16,7 +16,7 @@ const AboutMe = () => (
             </div>
             <div className="container">
                 <h2 className="custom-title">Hard Skills</h2>
-                <div className="d-flex flex-wrap justify-content-between">
+                <div className="d-flex justify-content-evenly">
                     <ul className="list-unstyled row">
                         {
                             skills.map(({ skill, image }, index) => (
@@ -24,7 +24,7 @@ const AboutMe = () => (
                                     <div className="card bg-dark text-center border-primary">
                                         <div className="mt-2">
                                             <img src={`/${image}`} alt="image"
-                                                className=" card-img-top img-fluid"
+                                                className="card-img-top img-fluid"
                                                 style={{ maxWidth: "100px", maxHeight: "100px" }}
                                             />
                                             <h4 className="card-title text-light mt-2">{skill}</h4>
