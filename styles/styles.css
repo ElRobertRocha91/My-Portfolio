@@ -203,7 +203,7 @@
     border: solid 1px var(--dbGreen);
     background-color: var(--dbDark);
     opacity: 0;
-    transition: background-color 0.3s ease;
+    transition: opacity 16s ease;
 }
 
 .custom-btn-cv.show{
