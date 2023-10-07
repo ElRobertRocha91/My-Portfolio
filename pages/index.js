@@ -40,23 +40,23 @@ const Index = () => {
                                 My profile is very complete, you will get a profile with great resolutive and analytical capacity. Results oriented with great leadership,
                                 objectivity and communication.
                             </p>
-                        </div>
-                        <div>
-                            <button type="button"
-                                onClick={handleDownloadClick}
-                                className={`btn-outline-secondary custom-btn-cv ${imageLoaded ? "show" : ""}`}>
-                                DOWNLOAD CV
-                            </button>
+                            <div>
+                                <button type="button"
+                                    onClick={handleDownloadClick}
+                                    className={`btn-outline-secondary custom-btn-cv ${imageLoaded ? "show" : ""}`}>
+                                    DOWNLOAD CV
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </header>
             {/* second section */}
-            <AboutMe/>
+            <AboutMe />
             {/* third section */}
             <Portfolio />
             {/* fourth section */}
-            <Contact/>
+            <Contact />
         </Layout>)
 }
 
