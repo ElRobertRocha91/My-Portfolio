@@ -6,7 +6,7 @@ import Contact from "../components/Contact";
 import AboutMe from "../components/AboutMe";
 
 const Index = () => {
-    const [imageLoanded, setImageLoaded] = useState(false);
+    const [imageLoaded, setImageLoaded] = useState(false);
 
     //Cuando Index se monte, marcamos la image como cargada:
     useEffect(() => {
@@ -26,21 +26,25 @@ const Index = () => {
                 <div className="col-md-12">
                     <div className="row text-light align-items-center">
                         <div className="col-md-4 text-center text-md-right">
-                            <img src="Photo-Perfil.jpg" alt="image" className={`custom-img ${imageLoanded ? "show" : ""}`} />
+                            <img src="Photo-Perfil.jpg" alt="image" className={`custom-img ${imageLoaded ? "show" : ""}`} />
                         </div>
                         <div className="col-md-8">
-                            <h6 className={`custom-text ${imageLoanded ? "show" : ""}`}>Licenciado en Administración</h6>
-                            <h1 className={`custom-heading ${imageLoanded ? "show" : ""}`}>
-                                <span>Hello, I'm a Web</span>
+                            <h6 className={`custom-text ${imageLoaded ? "show" : ""}`}>Bachelor's Degre in Administration</h6>
+                            <h1 className={`custom-heading ${imageLoaded ? "show" : ""}`}>
+                                <span>Hello, I'm a Full Stack</span>
                                 <br />
-                                <span className={`custom-span ${imageLoanded ? "show" : ""}`}>Developer</span>
+                                <span className={`custom-span ${imageLoaded ? "show" : ""}`}>Web Developer</span>
                             </h1>
-                            <p className={`custom-p ${imageLoanded ? "show" : ""}`}>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta).</p>
+                            <p className={`custom-p ${imageLoaded ? "show" : ""}`}>
+                                Full Stack Web Developer Jr. with experience in developer front-end and back-end. I have a background in Administrative Jr.
+                                My profile is very complete, you will get a profile with great resolutive and analytical capacity. Results oriented with great leadership,
+                                objectivity and communication.
+                            </p>
                         </div>
                         <div>
                             <button type="button"
                                 onClick={handleDownloadClick}
-                                className={`btn-outline-success custom-btn-cv ${imageLoanded ? "show" : ""}`}>
+                                className={`btn-outline-secondary custom-btn-cv ${imageLoaded ? "show" : ""}`}>
                                 DOWNLOAD CV
                             </button>
                         </div>
