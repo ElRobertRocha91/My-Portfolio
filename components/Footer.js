@@ -9,13 +9,13 @@ const Footer = () => (
                     <li className="list-inline-item">
                         <Link href="/about" className="link text-light">About</Link>
                     </li>
-                    <li>
+                    <li className="list-inline-item">
                         <Link href="/blog" className="link text-light">Blog</Link>
                     </li>
-                    <li>
+                    <li className="list-inline-item">
                         <Link href="/services" className="link text-light">Services</Link>
                     </li>
-                    <li>
+                    <li className="list-inline-item">
                         <Link href="/more" className="link text-light">More</Link>
                     </li>
                 </ul>
