@@ -24,8 +24,7 @@ const AboutMe = () => (
                                     <div className="card bg-dark text-center border-primary">
                                         <div className="mt-2">
                                             <img src={`/${image}`} alt="image" 
-                                            className="card-img-top img-fluid" 
-                                            style={{ maxWidth: "100px", maxHeight: "100px" }}
+                                            className="card-img-top img-fluid custom-img-li"
                                             />
                                             <h4 className="card-title text-light mt-2">{skill}</h4>
                                         </div>
