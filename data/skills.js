@@ -16,7 +16,7 @@ export const skills = [
         image: "redux.png"
     },{
         skill: "Bootstrap",
-        image: "bootstrap.png"
+        image: "Bootstrap3.png"
     },{
         skill: "Next.js",
         image: "nextjs.png"
