@@ -221,6 +221,11 @@
 
 /* componente aboutme */
 
+.custom-div-img{
+    height: 200px;
+    overflow: hidden;
+}
+
 .custom-text-align{
     text-align: justify;
 }
