@@ -219,6 +219,12 @@
     background-color: var(--dbDark);
 }
 
+/* componente aboutme */
+
+.custom-text-align{
+    text-align: justify;
+}
+
 /* component portfolio */
 
 .overflow{

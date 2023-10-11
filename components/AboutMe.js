@@ -5,7 +5,7 @@ const AboutMe = () => (
         <div className="text-light">
             <h2 className="custom-title text-center">About Me</h2>
             <div className="container-md text-center fs-4 p-5 px-10">
-                <p>
+                <p className="custom-text-align">
                     Hello! my name is Roberto Rocha, I am a Full Stack Web Developer Jr.
                     interested and passionate about technology, I starded my training ot the
                     National Technological University as a University Technician in Programing.
@@ -23,9 +23,9 @@ const AboutMe = () => (
                                 <li key={index} className="col-md-4 mb-3">
                                     <div className="card bg-dark text-center border-primary">
                                         <div className="mt-2">
-                                            <img src={`/${image}`} alt="image"
-                                                className="card-img-top img-fluid"
-                                                style={{ maxWidth: "100px", maxHeight: "100px" }}
+                                            <img src={`/${image}`} alt="image" 
+                                            className="card-img-top img-fluid" 
+                                            style={{ maxWidth: "100px", maxHeight: "100px" }}
                                             />
                                             <h4 className="card-title text-light mt-2">{skill}</h4>
                                         </div>
