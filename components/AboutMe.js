@@ -26,8 +26,8 @@ const AboutMe = () => (
                                             <img src={`/${image}`} alt="image" 
                                             className="card-img-top img-fluid custom-img-li"
                                             />
-                                            <h4 className="card-title text-light mt-2">{skill}</h4>
                                         </div>
+                                        <h4 className="card-title text-light mt-2">{skill}</h4>
                                     </div>
                                 </li>
                             ))
