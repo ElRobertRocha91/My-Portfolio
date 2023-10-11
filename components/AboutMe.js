@@ -22,7 +22,7 @@ const AboutMe = () => (
                             skills.map(({ skill, image }, index) => (
                                 <li key={index} className="col-md-4 mb-3">
                                     <div className="card bg-dark text-center border-primary">
-                                        <div className="d-flex align-items-center justify-content-center custom-div-img">
+                                        <div className="d-flex align-items-center justify-content-center custom-div-img mt-2">
                                             <img src={`/${image}`} alt="image" 
                                             className="card-img-top img-fluid custom-img-li"
                                             />
