@@ -15,9 +15,14 @@ const Portfolio = () => (
                             <div className="card-body text-light">
                                 <h3>{name}</h3>
                                 <p>{description}</p>
-                                <Link href="/more">
-                                    <button className="btn btn-primary">Know more</button>
-                                </Link>
+                                <div className="d-grid gap-2 d-md-block">
+                                    <Link href="https://pi-pokemon-main-gqd3.vercel.app/">
+                                        <button className="btn btn-primary">Demo</button>
+                                    </Link>
+                                    <Link href="https://github.com/ElRobertRocha91/PI-Pokemon-main">
+                                        <button className="btn btn-primary">Repository</button>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
