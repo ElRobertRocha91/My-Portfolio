@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Projects } from "../data/projects";
 
 const Portfolio = () => (
-    <div className="container-fluid text-center overflow-hidden bg-black">
+    <div className="container-fluid vh-100 text-center overflow-hidden bg-black">
         <h1 className="text-center custom-title">Portfolio</h1>
         <div className="row gx-5">
             {
