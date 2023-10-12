@@ -17,10 +17,10 @@ const Portfolio = () => (
                                 <p>{description}</p>
                                 <div className="d-grid gap-2 d-md-block">
                                     <Link href="https://pi-pokemon-main-gqd3.vercel.app/">
-                                        <button className="btn btn-primary">Demo</button>
+                                        <button className="btn btn-primary mx-2">Demo</button>
                                     </Link>
                                     <Link href="https://github.com/ElRobertRocha91/PI-Pokemon-main">
-                                        <button className="btn btn-primary">Repository</button>
+                                        <button className="btn btn-primary mx-2">Repository</button>
                                     </Link>
                                 </div>
                             </div>
