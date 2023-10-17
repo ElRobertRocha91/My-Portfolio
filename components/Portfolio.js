@@ -6,7 +6,7 @@ const Portfolio = () => (
         <h1 className="text-center custom-title">Portfolio</h1>
         <div className="row gx-5">
             {
-                Projects.map(({ name, description, image }, index) => (
+                Projects.map(({ name, description, image, repository, url }, index) => (
                     <div className="col" key={index}>
                         <div className="card p-3 mb-4 bg-dark h-90 d-flex flex-column justify-content-between border-primary">
                             <div className="overflow">
@@ -16,10 +16,10 @@ const Portfolio = () => (
                                 <h3>{name}</h3>
                                 <p>{description}</p>
                                 <div className="d-grid gap-2 d-md-block">
-                                    <Link href="https://pi-pokemon-main-gqd3.vercel.app/">
+                                    <Link href={url}>
                                         <a className="btn btn-primary btn-sm mx-2">Demo</a>
                                     </Link>
-                                    <Link href="https://github.com/ElRobertRocha91/PI-Pokemon-main">
+                                    <Link href={repository}>
                                         <a className="btn btn-primary btn-sm mx-2">Repository</a>
                                     </Link>
                                 </div>
