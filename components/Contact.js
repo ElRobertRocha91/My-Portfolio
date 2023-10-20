@@ -22,7 +22,7 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            .sendForm("service_zgt1kbl", "templane_k1v8um3", form.current, "yF2QjO9nUK9rkeeH0")
+            .sendForm("service_zgt1kbl", "template_k1v8um3", form.current, "yF2QjO9nUK9rkeeH0")
             .then(
                 (result) => {
                     alert("Message sent successfully");
