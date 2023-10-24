@@ -1,6 +1,7 @@
+'use client'
+
 import { useState, useEffect } from "react";
 import Layout from "../components/Layout";
-import CV from "../components/CV";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import AboutMe from "../components/AboutMe";
