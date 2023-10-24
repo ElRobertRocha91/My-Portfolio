@@ -12,7 +12,7 @@ const Index = () => {
     //Cuando Index se monte, marcamos la image como cargada:
     useEffect(() => {
         setImageLoaded(true);
-    }, [])
+    }, []);
 
     //DOWNLOAD
     const handleDownloadClick = () => {

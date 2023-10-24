@@ -15,7 +15,7 @@ const AboutMe = () => (
                 </p>
             </div>
             <div className="container">
-                <h2 className="custom-title">Hard Skills</h2>
+                <h2 className="custom-title text-center">Hard Skills</h2>
                 <div className="d-flex justify-content-evenly">
                     <ul className="list-unstyled row">
                         {
