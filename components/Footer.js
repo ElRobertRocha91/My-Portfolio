@@ -5,7 +5,8 @@ const Footer = () => {
     const [date, setDate] = useState(null);
 
     useEffect(() => {
-        setDate(new Date().getFullYear());
+        setDate(new Date().toLocaleDateString("en-US"));
+        console.log(date);
     }, []);
 
     return (
