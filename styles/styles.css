@@ -238,6 +238,13 @@
     text-align: justify;
 }
 
+@media(max-Width: 767px){
+    .custom-text-align{
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
 .custom-img-li{
     max-width: 100px;
     max-height: 100px;
