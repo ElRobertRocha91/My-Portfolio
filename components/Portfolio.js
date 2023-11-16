@@ -10,7 +10,7 @@ const Portfolio = () => (
                     <div className="col" key={index}>
                         <div className="card p-3 mb-4 bg-dark h-90 d-flex flex-column justify-content-between border-primary">
                             <div className="overflow">
-                                <img src={`/${image}`} alt="img" className="card-img-top img-fluid" />
+                                <img src={`/${image}`} alt="img" className="card-img-top img-fluid" style={{ height: "100px", width: "auto" }} />
                             </div>
                             <div className="card-body text-light" style={{ maxHeight: "100px", overflow: "hidden" }}>
                                 <h3>{name}</h3>
