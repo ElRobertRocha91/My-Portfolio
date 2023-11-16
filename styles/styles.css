@@ -145,6 +145,14 @@
     opacity: 1;
 }
 
+@media (max-width: 767px) {
+    .custom-img {
+        max-width: 100%;
+        height: auto;
+        max-height: 200px;
+    }
+}
+
 /*  animación de Developer Web */
 
 .custom-heading{

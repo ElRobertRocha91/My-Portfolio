@@ -27,7 +27,7 @@ const Index = () => {
                 <div className="col-md-12">
                     <div className="row text-light align-items-center">
                         <div className="col-md-4 text-center text-md-right">
-                            <img src="Photo-Perfil.jpg" alt="image" className={`custom-img img-fluid ${imageLoaded ? "show" : ""}`} style={{ maxHeight: "200px" }}/>
+                            <img src="Photo-Perfil.jpg" alt="image" className={`custom-img img-fluid ${imageLoaded ? "show" : ""}`}/>
                         </div>
                         <div className="col-md-8">
                             <h6 className={`custom-text ${imageLoaded ? "show" : ""}`}>Bachelor's Degre in Administration</h6>
