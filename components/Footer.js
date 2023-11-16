@@ -12,8 +12,8 @@ const Footer = () => {
         <div className="custom-bg-black text-light text-center">
             <div className="container">
                 <h3>My Portfolio</h3>
-                <div className="custom-footer-links d-flex justify-content-between">
-                    <ul className="list-inline flex-fill">
+                <div className="custom-footer-links d-flex flex-wrap justify-content-between">
+                    <ul className="list-inline">
                         <li className="list-inline-item">
                             <Link href="/about" className="link text-light">About</Link>
                         </li>
