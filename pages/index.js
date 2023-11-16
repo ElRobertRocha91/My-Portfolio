@@ -41,7 +41,7 @@ const Index = () => {
                                 My profile is very complete, you will get a profile with great resolutive and analytical capacity. Results oriented with great leadership,
                                 objectivity and communication.
                             </p>
-                            <div>
+                            <div className="responsive-button">
                                 <button type="button"
                                     onClick={handleDownloadClick}
                                     className={`btn-outline-secondary custom-btn-cv ${imageLoaded ? "show" : ""}`}>

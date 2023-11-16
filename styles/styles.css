@@ -223,6 +223,17 @@
     background-color: var(--dbGreen);
 }
 
+@media(max-Width: 767px){
+    .custom-btn-cv{
+        width: 100%;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+    .responsive-button{
+        text-align: center;
+    }
+}
+
 .custom-bg-dark{
     background-color: var(--dbDark);
 }
