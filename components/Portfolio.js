@@ -17,10 +17,10 @@ const Portfolio = () => (
                                 <p>{description}</p>
                                 <div className="d-grid gap-2 d-md-block">
                                     <Link href={url}>
-                                        <a className="btn btn-primary btn-sm mx-2">Demo</a>
+                                        <a className="btn btn-primary btn-sm mx-2" style={{ width: "90px" }}>Demo</a>
                                     </Link>
                                     <Link href={repository}>
-                                        <a className="btn btn-primary btn-sm mx-2">Repository</a>
+                                        <a className="btn btn-primary btn-sm mx-2" style={{ width: "90px" }}>Repository</a>
                                     </Link>
                                 </div>
                             </div>
