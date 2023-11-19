@@ -323,3 +323,12 @@
 .custom-footer-links .list-inline-item:hover{
     text-decoration: underline;
 }
+
+@media(max-width: 767px){
+    .custom-footer-links{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
