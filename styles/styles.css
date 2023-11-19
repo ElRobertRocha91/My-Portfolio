@@ -282,6 +282,18 @@
     object-fit: cover;
 }
 
+.btn-responsive{
+    width: 90px;
+}
+
+@media(max-Width: 767px){
+    .btn-responsive{
+        width: 100%;
+        max-height: 300px;
+        margin: 0 auto;
+    }
+}
+
 /* component contact */
 
 .custom-title{
