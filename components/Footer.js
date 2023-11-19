@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="custom-bg-black text-light text-center">
             <div className="container">
                 <h3>My Portfolio</h3>
-                <div className="custom-footer-links d-flex flex-wrap justify-content-center text-center">
+                <div className="custom-footer-links d-flex flex-wrap justify-content-center text-center custom-list-responsive">
                     <ul className="list-inline">
                         <li className="list-inline-item">
                             <Link href="/about" className="link text-light">About</Link>

@@ -325,7 +325,7 @@
 }
 
 @media(max-width: 767px){
-    .custom-footer-links{
+    .custom-list-responsive{
         display: flex;
         align-items: center;
         flex-direction: column;
