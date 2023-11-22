@@ -150,6 +150,7 @@
         max-width: 100%;
         height: auto;
         max-height: 200px;
+        padding-bottom: 2rem;
     }
 }
 
@@ -179,6 +180,12 @@
     }
 }
 
+@media(max-Width: 767px){
+    .custom-heading{
+        text-align: center;
+    }
+}
+
 /* --------------------------- */
 
 .custom-text{
@@ -189,6 +196,12 @@
 
 .custom-text.show{
     opacity: 1;
+}
+
+@media(max-Width: 767px){
+    .custom-text{
+        text-align: center;
+    }
 }
 
 .custom-span{
@@ -202,6 +215,12 @@
 
 .custom-p.show{
     opacity: 1;
+}
+
+@media(max-Width: 767px){
+    .custom-p{
+        text-align: justify;
+    }
 }
 
 .custom-btn-cv{
