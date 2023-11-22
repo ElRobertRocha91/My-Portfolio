@@ -329,6 +329,8 @@
 
 .custom-title{
     color: var(--dbGreen);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .custom-input{
