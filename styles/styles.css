@@ -328,12 +328,34 @@
     color: var(--dbWhite);
 }
 
+.custom-btn-message{
+    color: var(--dbDark);
+    border-radius: 10px;
+    background-color: var(--dbGreen);
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn-message:hover{
+    color: var(--dbWhite);
+    background-color: var(--dbDark);
+}
+
 @media(max-width: 767px){
     .custom-container-grid{
         padding-top: 1rem;
     }
     .custom-form{
         max-width: 400px;
+        margin: 0 auto;
+    }
+    .custom-textarea{
+        height: 11rem;
+        resize: none;
+        margin-bottom: 2rem;
+    }
+    .custom-btn-message{
+        width: 100%;
+        max-height: 300px;
         margin: 0 auto;
     }
 }

@@ -40,7 +40,7 @@ const Contact = () => {
 
     return (
         <section className="row text-light text-center bg-black d-flex justify-content-center mt-4">
-            <div className="card col-md-6 w-50 mb-3 mt-3 bg-dark border-primary">
+            <div className="card col-md-6 mb-3 mt-3 bg-dark border-primary">
                 <h2 className="custom-title">
                     Contact Me
                 </h2>
@@ -73,12 +73,12 @@ const Contact = () => {
                                 name="message"
                                 value={formData.message}
                                 onChange={handleChange}
-                                className="custom-input form-control"
+                                className="custom-input form-control custom-textarea"
                                 required placeholder="Enter your message"
                             ></textarea>
                         </div>
                         <p>Message</p>
-                        <button type="submit" className="btn btn-outline-success custom-btn">
+                        <button type="submit" className="btn btn-outline-success custom-btn-message">
                             Send Message
                         </button>
                     </form>
