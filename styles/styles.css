@@ -156,7 +156,7 @@
 
 /*  animación de Developer Web */
 
-.custom-heading{
+/* .custom-heading{
     overflow: hidden;
     white-space: nowrap;
     animation: typing 4s steps(40, and), blink-caret 0.75s step-end infinite;
@@ -178,6 +178,15 @@
     50% {
         border-color: var(--dbGreen);
     }
+} */
+
+.custom-heading{
+    opacity: 0;
+    transition: opacity 6s ease;
+}
+
+.custom-heading.show{
+    opacity: 1;
 }
 
 @media(max-Width: 767px){
