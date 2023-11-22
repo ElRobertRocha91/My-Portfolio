@@ -44,9 +44,9 @@ const Contact = () => {
                 <h2 className="custom-title">
                     Contact Me
                 </h2>
-                <div className="mb-3 px-3 py-3">
-                    <form onSubmit={handleSubmit} ref={form}>
-                        <div>
+                <div className="custom-container-grid mb-3 px-3 py-3">
+                    <form onSubmit={handleSubmit} ref={form} className="custom-form">
+                        <div className="custom-data">
                             <div className="mb-3">
                                 <input
                                     type="text"

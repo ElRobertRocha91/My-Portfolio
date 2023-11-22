@@ -328,6 +328,17 @@
     color: var(--dbWhite);
 }
 
+@media(max-width: 767px){
+    .custom-container-grid{
+        padding-top: 1rem;
+    }
+    .custom-form,
+    .custom-data{
+        display: grid;
+        row-gap: 1rem;
+    }
+}
+
 /* component footer */
 
 .custom-bg-black{
