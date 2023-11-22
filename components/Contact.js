@@ -40,7 +40,7 @@ const Contact = () => {
 
     return (
         <section className="row text-light text-center bg-black d-flex justify-content-center mt-4">
-            <div className="card w-50 mb-3 mt-3 bg-dark border-primary">
+            <div className="card col-md-6 w-50 mb-3 mt-3 bg-dark border-primary">
                 <h2 className="custom-title">
                     Contact Me
                 </h2>

@@ -332,10 +332,9 @@
     .custom-container-grid{
         padding-top: 1rem;
     }
-    .custom-form,
-    .custom-data{
-        display: grid;
-        row-gap: 1rem;
+    .custom-form{
+        max-width: 400px;
+        margin: 0 auto;
     }
 }
 
