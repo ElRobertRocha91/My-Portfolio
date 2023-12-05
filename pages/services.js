@@ -2,7 +2,9 @@ import Layout from "../components/Layout";
 
 const Services = () => (
     <Layout>
-        <h1>Services</h1>
+        <div className="card text-center">
+            <h1 className="mt-4 text-light">Oops! Sorry this page is under development</h1>
+        </div>
     </Layout>
 )
 
