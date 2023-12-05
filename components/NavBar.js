@@ -30,8 +30,8 @@ const NavBar = () => {
     return (
         <nav className={navbarClasses}>
             <div className="container neon-effect">
-                <Link href="/" className="link">
-                    <div className="navbar-brand" >My Portfolio</div>
+                <Link href="/" className="link navbar-brand">
+                    My Portfolio
                 </Link>
                 {/* menu hamburguesa responsive */}
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
