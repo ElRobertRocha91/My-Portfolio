@@ -396,4 +396,9 @@
         flex-direction: column;
         margin-top: 20px;
     }
+    .custom-footer-links 
+    .list-inline-item{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
 }
