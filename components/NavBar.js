@@ -1,3 +1,6 @@
+'use client'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
