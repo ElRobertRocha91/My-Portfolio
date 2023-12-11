@@ -62,11 +62,11 @@
     }
 }
 
-@media(max-width: 767px){
+/* @media(max-width: 767px){
     .custom-message{
         transform: translate(-50%, -30%);
     }
-}
+} */
 
 
 /* ----------------- */
