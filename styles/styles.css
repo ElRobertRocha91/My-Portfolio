@@ -64,7 +64,7 @@
 
 @media(max-width: 767px){
     .custom-message{
-        transform: translate(-50%, -70%);
+        transform: translate(-50%, -30%);
     }
 }
 
