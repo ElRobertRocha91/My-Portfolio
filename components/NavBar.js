@@ -1,12 +1,13 @@
 'use client'
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
-import Link from "next/link";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
 
 const NavBar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const router = useRouter();
     //Manejamos su ciclo de vida
     useEffect(() => {
         const handleScroll = () => {
@@ -27,50 +28,30 @@ const NavBar = () => {
     //Manejamos la lógica de implementación del scroll con un ternario en una variable
     const navbarClasses = `navbar navbar-expand-lg navbar-dark custom-bg-color ${isScrolled ? "fixed-navbar" : ""}`;
 
-    //Funcionalidad al button Contact
-    const router = useRouter();
-
     return (
-        <nav className={navbarClasses}>
+        <Navbar collapseOnSelect expand="lg" className={navbarClasses}>
             <div className="container neon-effect">
-                <Link href="/" className="link navbar-brand">
-                    My Portfolio
-                </Link>
+                <Navbar.Brand  as="a" href="/">My Portfolio</Navbar.Brand>
                 {/* menu hamburguesa responsive */}
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse text-center" id="navbarText">
-                    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <Link href="/about" className="link nav-link">
-                                About
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/services" className="link nav-link">
-                                Services
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/blog" className="link nav-link">
-                                Blog
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/more" className="link nav-link">
-                                More
-                            </Link>
-                        </li>
-                    </ul>
+                <Navbar.Toggle arial-controls="responsive-navbar-nav"/>
+                <Navbar.Collapse id="responsive-navbar-nav" className="text-center">
+                    <Nav className="me-auto">
+                        <Nav.Link className="link" onclick={() => router.push("/")}>Home</Nav.Link>
+                        <Nav.Link className="link" onclick={() => router.push("/about")}>About</Nav.Link>
+                        <Nav.Link className="link" onclick={() => router.push("/services")}>Services</Nav.Link>
+                        <Nav.Link className="link" onclick={() => router.push("/blog")}>Blog</Nav.Link>
+                        <Nav.Link className="link" onclick={() => router.push("/more")}>More</Nav.Link>
+                    </Nav>
+                    <Nav>
                     <button type="button" 
                     onClick={() => router.push('/more')}
                     className="navbar-text btn btn-outline-success custom-btn">
                         Contact
                     </button>
-                </div>
+                    </Nav>
+                </Navbar.Collapse>
             </div>
-        </nav>
+        </Navbar>
     )
 }
 
