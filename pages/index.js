@@ -17,7 +17,7 @@ const Index = () => {
     //DOWNLOAD
     const handleDownloadClick = () => {
         //Uso el objeto global para la descarga, evitando usar router.push() que me provocaba un error
-        window.open('/CV-Roberto Rocha.pdf');
+        window.open('/Roberto Rocha-CV.pdf');
     }
 
     return (
