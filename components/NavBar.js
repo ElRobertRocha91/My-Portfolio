@@ -36,11 +36,11 @@ const NavBar = () => {
                 <Navbar.Toggle arial-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav" className="text-center">
                     <Nav className="me-auto">
-                        <Nav.Link className="link" onclick={() => router.push("/")}>Home</Nav.Link>
-                        <Nav.Link className="link" onclick={() => router.push("/about")}>About</Nav.Link>
-                        <Nav.Link className="link" onclick={() => router.push("/services")}>Services</Nav.Link>
-                        <Nav.Link className="link" onclick={() => router.push("/blog")}>Blog</Nav.Link>
-                        <Nav.Link className="link" onclick={() => router.push("/more")}>More</Nav.Link>
+                        <Nav.Link className="link" onClick={() => router.push("/")}>Home</Nav.Link>
+                        <Nav.Link className="link" onClick={() => router.push("/about")}>About</Nav.Link>
+                        <Nav.Link className="link" onClick={() => router.push("/services")}>Services</Nav.Link>
+                        <Nav.Link className="link" onClick={() => router.push("/blog")}>Blog</Nav.Link>
+                        <Nav.Link className="link" onClick={() => router.push("/more")}>More</Nav.Link>
                     </Nav>
                     <Nav>
                     <button type="button" 
