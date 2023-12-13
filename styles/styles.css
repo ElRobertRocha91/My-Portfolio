@@ -49,7 +49,7 @@
     top: 50%;
     left: 50%;
     /* lo centro usando el traslate de la animación 2D en eje X y eje Y */
-    transform: translate(-50%, 180%);
+    transform: translate(-50%, -50%);
     animation: custom-message 1s alternate infinite ease-in-out;
 }
 
