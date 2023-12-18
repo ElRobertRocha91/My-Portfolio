@@ -6,7 +6,7 @@ const AboutMe = () => (
             <h2 className="custom-title text-center">About Me</h2>
             <div className="container-sm text-center fs-4 px-10">
                 <p className="custom-text-align">
-                    Hello! my name is Roberto Rocha, I am a Full Stack Web Developer Jr.
+                    Hello! my name is Roberto Rocha, I am a Full Stack Web Developer
                     interested and passionate about technology, I starded my training ot the
                     National Technological University as a University Technician in Programing.
                     With the purpose of becoming a Software Developer.

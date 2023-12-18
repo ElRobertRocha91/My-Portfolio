@@ -37,7 +37,7 @@ const Index = () => {
                                 <span className={`custom-span ${imageLoaded ? "show" : ""}`}>Web Developer</span>
                             </h1>
                             <p className={`custom-p ${imageLoaded ? "show" : ""}`}>
-                                Full Stack Web Developer Jr. with experience in developer front-end and back-end. I have a background in Administrative Jr.
+                                Full Stack Web Developer with experience in developer front-end and back-end. I have a background in Administrative.
                                 My profile is very complete, you will get a profile with great resolutive and analytical capacity. Results oriented with great leadership,
                                 objectivity and communication.
                             </p>
