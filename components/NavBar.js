@@ -31,7 +31,7 @@ const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" className={navbarClasses}>
             <div className="container neon-effect">
-                <Navbar.Brand  as="a" href="https://github.com/ElRobertRocha91">My Portfolio</Navbar.Brand>
+                <Navbar.Brand  as="a" href="https://github.com/ElRobertRocha91" target="_black" rel="noopener noreferrer">My Portfolio</Navbar.Brand>
                 {/* menu hamburguesa responsive */}
                 <Navbar.Toggle arial-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav" className="text-center">

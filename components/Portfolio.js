@@ -16,11 +16,11 @@ const Portfolio = () => (
                                 <h3>{name}</h3>
                                 <p>{description}</p>
                                 <div className="d-grid gap-2 d-md-block">
-                                    <Link href={url}>
-                                        <a className="btn btn-primary btn-sm mx-2 btn-responsive">Demo</a>
+                                    <Link href={`${url}`} target="_black" rel="noopener noreferrer" className="btn btn-primary btn-sm mx-2 btn-responsive">
+                                        Demo
                                     </Link>
-                                    <Link href={repository}>
-                                        <a className="btn btn-primary btn-sm mx-2 btn-responsive">Repository</a>
+                                    <Link href={`${repository}`} target="_black" rel="noopener noreferrer" className="btn btn-primary btn-sm mx-2 btn-responsive">
+                                        Repository
                                     </Link>
                                 </div>
                             </div>
