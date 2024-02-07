@@ -1,6 +1,10 @@
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 
+export const metadata = {
+    title: "Roberto Rocha Portfolio"
+}
+
 const Layout = ({ children }) => (
     <>
         <NavBar/>
