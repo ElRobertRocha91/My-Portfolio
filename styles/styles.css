@@ -113,14 +113,7 @@
 
 @media (max-width: 767px){
     .neon-effect::after{
-        content: '';
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        right: 0;
-        height: 4px; /* Grosor del efecto neón */
-        background: linear-gradient(135deg, #00ff00, #00ffff, #0000ff); /* Colores del Neón */
-        opacity: 0.8; /* Revisar se puede ajustar la opacidad */
+        animation: none;
     }
 }
 
