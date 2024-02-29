@@ -17,7 +17,7 @@ const Index = () => {
     //DOWNLOAD
     const handleDownloadClick = () => {
         //Uso el objeto global para la descarga, evitando usar router.push() que me provocaba un error
-        window.open('/Roberto Rocha-CV.pdf');
+        window.open('/Roberto Esteban Rocha CV.pdf');
     }
 
     return (
@@ -30,11 +30,11 @@ const Index = () => {
                             <img src="Foto-CV.jpg" alt="image" className={`custom-img img-fluid ${imageLoaded ? "show" : ""}`}/>
                         </div>
                         <div className="col-md-8">
-                            <h6 className={`custom-text ${imageLoaded ? "show" : ""}`}>Bachelor's Degre in Administration</h6>
+                            <h6 className={`custom-text ${imageLoaded ? "show" : ""}`}>Full Stack Developer</h6>
                             <h1 className={`custom-heading ${imageLoaded ? "show" : ""}`}>
-                                <span>Hello, I'm a Full Stack</span>
+                                <span>Hello, I'm Roberto</span>
                                 <br />
-                                <span className={`custom-span ${imageLoaded ? "show" : ""}`}>Web Developer</span>
+                                <span className={`custom-span ${imageLoaded ? "show" : ""}`}>Rocha</span>
                             </h1>
                             <p className={`custom-p ${imageLoaded ? "show" : ""}`}>
                                 Full Stack Web Developer with experience in developer front-end and back-end. I have a background in Administrative.
