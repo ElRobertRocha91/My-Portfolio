@@ -32,9 +32,9 @@ const Index = () => {
                         <div className="col-md-8">
                             <h6 className={`custom-text ${imageLoaded ? "show" : ""}`}>Full Stack Developer</h6>
                             <h1 className={`custom-heading ${imageLoaded ? "show" : ""}`}>
-                                <span>Hello, I'm Roberto</span>
+                                <span>Welcome</span>
                                 <br />
-                                <span className={`custom-span ${imageLoaded ? "show" : ""}`}>Rocha</span>
+                                <span className={`custom-span ${imageLoaded ? "show" : ""}`}>I'm Roberto Rocha</span>
                             </h1>
                             <p className={`custom-p ${imageLoaded ? "show" : ""}`}>
                                 Full Stack Web Developer with experience in developer front-end and back-end. I have a background in Administrative.
